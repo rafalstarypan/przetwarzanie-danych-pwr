@@ -1,0 +1,30 @@
+cluster:
+/usr/src/docker/spark/docker-script/hadoop
+
+./compose-up.sh 3.3.5 3.4.0 3 /Users/Shared/workspace/docker-ws/spark-notebook /tmp/hadoop /tmp/hadoop_logs /tmp/spark_logs
+
+
+
+notebook:
+/usr/src/docker/spark/docker-script/hadoop# 
+./jupyter-start.sh
+
+
+podłączenie do mastera przykład z pi:
+docker exec -it master bash
+yarn jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-$HADOOP_VERSION.jar pi 2 5
+
+przykład z movies tworzenie kopii
+wget https://files.grouplens.org/datasets/movielens/ml-20m.zip -O /tmp/ml-20m.zip
+unzip ml-20m.zip
+cd ml-20m
+hdfs dfs -mkdir -p /movies/
+hdfs dfs -put movies.csv /movies/
+hdfs dfs -setrep -w 2 /movies/movies.csv
+
+
+Wyłączanie i uruchamianie:
+/usr/src/docker/spark/docker-script/hadoop
+./hadoop-stop.sh
+./hadoop-start.sh restart
+
