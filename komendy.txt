@@ -1,12 +1,12 @@
 cluster:
-/usr/src/docker/spark/docker-script/hadoop
+/usr/src/docker/docker-server/spark/docker-script/hadoop
 
 ./compose-up.sh 3.3.5 3.4.0 3 /Users/Shared/workspace/docker-ws/spark-notebook /tmp/hadoop /tmp/hadoop_logs /tmp/spark_logs
 
 
 
 notebook:
-/usr/src/docker/spark/docker-script/hadoop# 
+/usr/src/docker/docker-server/spark/docker-script/hadoop# 
 ./jupyter-start.sh
 
 
@@ -24,7 +24,7 @@ hdfs dfs -setrep -w 2 /movies/movies.csv
 
 
 Wyłączanie i uruchamianie:
-/usr/src/docker/spark/docker-script/hadoop
+/usr/src/docker/docker-server/spark/docker-script/hadoop
 ./hadoop-stop.sh
 ./hadoop-start.sh restart
 
