@@ -1,6 +1,7 @@
 """Akwizycja Citi Bike Trip Data ze S3 (bucket `tripdata`, anonimowy dostęp).
 
-Pliki miesięczne w formacie `YYYYMM-citibike-tripdata.csv.zip` (dla 2020+).
+Pliki miesięczne w formacie `YYYYMM-citibike-tripdata.zip` (aktualna konwencja
+bucketu od 2024+; wcześniejsze lata miały `.csv.zip`).
 Zakres projektu: marzec–listopad 2025.
 """
 from __future__ import annotations
@@ -26,7 +27,7 @@ S3_REGION = "us-east-1"
 
 
 def _filename_for(yyyymm: str) -> str:
-    return f"{yyyymm}-citibike-tripdata.csv.zip"
+    return f"{yyyymm}-citibike-tripdata.zip"
 
 
 def _sha256_of(path: Path) -> str:

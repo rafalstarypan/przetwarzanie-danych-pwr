@@ -1,7 +1,12 @@
 """Akwizycja NYC Permitted Event Information przez Socrata SODA API.
 
 Dataset NYC Open Data — ID konfigurowalny przez zmienną środowiskową `NYC_EVENTS_DATASET_ID`
-(default: `tvpp-9vvx` — NYC Permitted Event Information - Historical).
+(default: `bkfu-528j` — "NYC Permitted Event Information - Historical", obejmuje dane
+od 2008 i zawiera archiwalne eventy 2025).
+
+UWAGA: dataset `tvpp-9vvx` to wariant "Current" — tylko nadchodzący ~1 miesiąc,
+nie nadaje się do analizy historycznej (2025 zwraca 0 rekordów).
+
 Granulacja: 1 plik CSV per miesiąc, zakres marzec–listopad 2025.
 """
 from __future__ import annotations
@@ -21,7 +26,7 @@ from .manifest import Manifest
 
 
 SOURCE = "events"
-DEFAULT_DATASET_ID = "tvpp-9vvx"
+DEFAULT_DATASET_ID = "bkfu-528j"
 PAGE_LIMIT = 50000
 MAX_RETRIES = 3
 
@@ -122,10 +127,17 @@ def run(run_date: str, manifest: Manifest, logger: logging.Logger, tmp_dir: Path
         filename = _filename_for(yyyymm)
         if manifest.is_downloaded(SOURCE, filename):
             entry = manifest.get_entry(SOURCE, filename) or {}
-            size_mb = entry.get("size_bytes", 0) / 1e6
-            logger.info("[%s] skip %s (already in manifest, %.1f MB)", SOURCE, filename, size_mb)
-            result.skipped_files += 1
-            continue
+            saved_dataset = entry.get("dataset_id")
+            if saved_dataset and saved_dataset != dataset_id:
+                logger.info(
+                    "[%s] %s: manifest ma wpis z innego datasetu (%s → %s) — pobieram ponownie",
+                    SOURCE, filename, saved_dataset, dataset_id,
+                )
+            else:
+                size_mb = entry.get("size_bytes", 0) / 1e6
+                logger.info("[%s] skip %s (already in manifest, %.1f MB)", SOURCE, filename, size_mb)
+                result.skipped_files += 1
+                continue
 
         logger.info("[%s] fetch %s", SOURCE, yyyymm)
         t0 = time.time()

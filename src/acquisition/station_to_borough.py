@@ -29,8 +29,15 @@ from .manifest import Manifest
 
 
 SOURCE = "station_to_borough"
-GEOJSON_DATASET = "tqmj-j8zm"   # Borough Boundaries @ NYC Open Data
-GEOJSON_URL = f"https://data.cityofnewyork.us/resource/{GEOJSON_DATASET}.geojson"
+# "Borough Boundaries (water areas included)" — jedyny z katalogu NYC Open Data, który
+# ma 5 poligonów per dzielnica; stary `tqmj-j8zm` nie istnieje (404 / rozbity na
+# pojedyncze rekordy). Endpoint `/api/geospatial/.../export?format=GeoJSON` bo
+# `/resource/<id>.geojson` nie działa dla geospatial datasets.
+GEOJSON_DATASET = "wh2p-dxnf"
+GEOJSON_URL = (
+    f"https://data.cityofnewyork.us/api/geospatial/{GEOJSON_DATASET}"
+    "?method=export&format=GeoJSON"
+)
 FALLBACK_BOROUGH = "Other"
 
 
@@ -70,8 +77,14 @@ def _load_polygons(geojson_bytes: bytes) -> list[tuple[str, object]]:
         geom = feat.get("geometry")
         if geom is None:
             continue
-        # Borough Boundaries ma pole `boro_name`; zabezpieczamy się na wypadek zmiany schematu.
-        name = props.get("boro_name") or props.get("BoroName") or props.get("borough") or "Unknown"
+        # wh2p-dxnf używa `boroname`; historyczne warianty miały `boro_name`/`BoroName`.
+        name = (
+            props.get("boroname")
+            or props.get("boro_name")
+            or props.get("BoroName")
+            or props.get("borough")
+            or "Unknown"
+        )
         polys.append((name, shape(geom)))
     if not polys:
         raise RuntimeError("GeoJSON nie zawiera żadnych poligonów granic dzielnic")
