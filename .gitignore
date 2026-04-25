@@ -5,3 +5,6 @@ logs/
 data/
 __pycache__/
 *.pyc
+build/
+*.class
+*.jar
