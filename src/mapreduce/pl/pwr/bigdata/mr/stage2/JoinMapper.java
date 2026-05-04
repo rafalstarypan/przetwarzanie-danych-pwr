@@ -33,7 +33,7 @@ public class JoinMapper extends Mapper<LongWritable, Text, NullWritable, Text> {
             String name = f.getName();
             if (name.startsWith("noaa_") && (name.endsWith(".json") || f.isDirectory())) {
                 loadNoaa(f);
-            } else if (name.startsWith("events_") || name.equals("t2_events")) {
+            } else if (name.startsWith("events_") || name.startsWith("t2_events")) {
                 loadEvents(f);
             }
         }

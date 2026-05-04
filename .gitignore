@@ -1,7 +1,6 @@
 internal_docs
 .env
 .venv/
-logs/
 data/
 __pycache__/
 *.pyc

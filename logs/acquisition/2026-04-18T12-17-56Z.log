@@ -1,0 +1,39 @@
+2026-04-18T14:17:56 INFO  ======================================================================
+2026-04-18T14:17:56 INFO  === acquisition run started (run_date=2026-04-18, sources=events) ===
+2026-04-18T14:17:56 INFO  log file: /mnt/c/Users/Admin/Desktop/magisterka_pwr/semestry/III/przetwarzanie_danych/przetwarzanie-danych-pwr/logs/acquisition/2026-04-18T12-17-56Z.log
+2026-04-18T14:18:11 INFO  [manifest] załadowany z /meta/manifest.json (27 wpisów)
+2026-04-18T14:18:11 INFO  [events] start (dataset=bkfu-528j)
+2026-04-18T14:18:11 INFO  [events] events_202503.csv: manifest ma wpis z innego datasetu (tvpp-9vvx → bkfu-528j) — pobieram ponownie
+2026-04-18T14:18:11 INFO  [events] fetch 202503
+2026-04-18T14:21:24 INFO  [events] 202503: 176335 rekordów, 34657.2 KB w 192.8s
+2026-04-18T14:21:47 INFO  [events] events_202504.csv: manifest ma wpis z innego datasetu (tvpp-9vvx → bkfu-528j) — pobieram ponownie
+2026-04-18T14:21:47 INFO  [events] fetch 202504
+2026-04-18T14:27:14 INFO  [events] 202504: 853238 rekordów, 186625.4 KB w 321.6s
+2026-04-18T14:28:10 INFO  [events] events_202505.csv: manifest ma wpis z innego datasetu (tvpp-9vvx → bkfu-528j) — pobieram ponownie
+2026-04-18T14:28:10 INFO  [events] fetch 202505
+2026-04-18T14:30:41 INFO  [events] 202505: 901258 rekordów, 192097.8 KB w 147.5s
+2026-04-18T14:31:37 INFO  [events] events_202506.csv: manifest ma wpis z innego datasetu (tvpp-9vvx → bkfu-528j) — pobieram ponownie
+2026-04-18T14:31:37 INFO  [events] fetch 202506
+2026-04-18T14:35:40 INFO  [events] 202506: 823560 rekordów, 172007.9 KB w 239.5s
+2026-04-18T14:36:30 INFO  [events] events_202507.csv: manifest ma wpis z innego datasetu (tvpp-9vvx → bkfu-528j) — pobieram ponownie
+2026-04-18T14:36:30 INFO  [events] fetch 202507
+2026-04-18T14:39:32 INFO  [events] 202507: 664106 rekordów, 134660.2 KB w 179.3s
+2026-04-18T14:40:27 INFO  [events] events_202508.csv: manifest ma wpis z innego datasetu (tvpp-9vvx → bkfu-528j) — pobieram ponownie
+2026-04-18T14:40:27 INFO  [events] fetch 202508
+2026-04-18T14:43:41 INFO  [events] 202508: 771775 rekordów, 155374.6 KB w 189.0s
+2026-04-18T14:44:35 INFO  [events] events_202509.csv: manifest ma wpis z innego datasetu (tvpp-9vvx → bkfu-528j) — pobieram ponownie
+2026-04-18T14:44:35 INFO  [events] fetch 202509
+2026-04-18T14:47:09 INFO  [events] 202509: 809999 rekordów, 156773.9 KB w 151.6s
+2026-04-18T14:48:04 INFO  [events] events_202510.csv: manifest ma wpis z innego datasetu (tvpp-9vvx → bkfu-528j) — pobieram ponownie
+2026-04-18T14:48:04 INFO  [events] fetch 202510
+2026-04-18T14:51:10 INFO  [events] 202510: 947971 rekordów, 182986.7 KB w 182.6s
+2026-04-18T14:51:51 INFO  [events] events_202511.csv: manifest ma wpis z innego datasetu (tvpp-9vvx → bkfu-528j) — pobieram ponownie
+2026-04-18T14:51:51 INFO  [events] fetch 202511
+2026-04-18T14:53:05 INFO  [events] 202511: 588543 rekordów, 114467.6 KB w 71.3s
+2026-04-18T14:53:44 INFO  [events] done: events                 9 new,   0 skipped,  1361.56 MB pulled, 0 errors
+2026-04-18T14:54:17 INFO  [manifest] zapisany w /meta/manifest.json (27 wpisów)
+2026-04-18T14:54:17 INFO  === SUMMARY ===
+2026-04-18T14:54:17 INFO    events                 9 new,   0 skipped,  1361.56 MB pulled, 0 errors
+2026-04-18T14:54:17 INFO    TOTAL: 9 new, 0 skipped, 1361.6 MB, 0 errors, duration 2180.5s
+2026-04-18T14:54:48 INFO  [log] lokalny → HDFS /logs/acquisition-2026-04-18T12-17-56Z.log
+2026-04-18T14:54:48 INFO  === acquisition run finished (0 errors) ===

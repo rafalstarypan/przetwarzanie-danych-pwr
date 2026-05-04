@@ -1,0 +1,83 @@
+2026-04-18T16:51:17 INFO  ======================================================================
+2026-04-18T16:51:17 INFO  === acquisition run started (run_date=2026-04-18, sources=citibike,noaa,events,station_to_borough) ===
+2026-04-18T16:51:17 INFO  log file: /mnt/c/Users/Admin/Desktop/magisterka_pwr/semestry/III/przetwarzanie_danych/przetwarzanie-danych-pwr/logs/acquisition/2026-04-18T14-51-17Z.log
+2026-04-18T16:51:41 INFO  [manifest] brak /meta/manifest.json w HDFS, startuję z pustym manifestem
+2026-04-18T16:51:41 INFO  [citibike] start
+2026-04-18T16:52:01 INFO  [citibike] downloading 202503-citibike-tripdata.zip (618.3 MB) from s3://tripdata/
+2026-04-18T16:52:34 INFO  [citibike] downloaded 618260276 B in 33.3s (18.54 MB/s)
+2026-04-18T16:54:05 INFO  [citibike] downloading 202504-citibike-tripdata.zip (727.2 MB) from s3://tripdata/
+2026-04-18T16:54:56 INFO  [citibike] downloaded 727249076 B in 51.1s (14.24 MB/s)
+2026-04-18T16:56:20 INFO  [citibike] downloading 202505-citibike-tripdata.zip (844.4 MB) from s3://tripdata/
+2026-04-18T16:57:03 INFO  [citibike] downloaded 844446636 B in 43.4s (19.47 MB/s)
+2026-04-18T16:59:14 INFO  [citibike] downloading 202506-citibike-tripdata.zip (929.0 MB) from s3://tripdata/
+2026-04-18T17:00:14 INFO  [citibike] downloaded 929043436 B in 60.5s (15.34 MB/s)
+2026-04-18T17:02:31 INFO  [citibike] downloading 202507-citibike-tripdata.zip (973.9 MB) from s3://tripdata/
+2026-04-18T17:03:02 INFO  [citibike] downloaded 973875638 B in 30.3s (32.18 MB/s)
+2026-04-18T17:04:11 INFO  [citibike] downloading 202508-citibike-tripdata.zip (1000.3 MB) from s3://tripdata/
+2026-04-18T17:04:39 INFO  [citibike] downloaded 1000258641 B in 28.0s (35.67 MB/s)
+2026-04-18T17:05:42 INFO  [citibike] downloading 202509-citibike-tripdata.zip (1032.4 MB) from s3://tripdata/
+2026-04-18T17:06:14 INFO  [citibike] downloaded 1032411368 B in 31.8s (32.47 MB/s)
+2026-04-18T17:07:18 INFO  [citibike] downloading 202510-citibike-tripdata.zip (924.1 MB) from s3://tripdata/
+2026-04-18T17:07:46 INFO  [citibike] downloaded 924115389 B in 28.5s (32.43 MB/s)
+2026-04-18T17:08:46 INFO  [citibike] downloading 202511-citibike-tripdata.zip (667.1 MB) from s3://tripdata/
+2026-04-18T17:09:14 INFO  [citibike] downloaded 667113932 B in 27.4s (24.31 MB/s)
+2026-04-18T17:09:54 INFO  [citibike] done: citibike               9 new,   0 skipped,  7716.77 MB pulled, 0 errors
+2026-04-18T17:09:54 INFO  [noaa] start
+2026-04-18T17:09:54 INFO  [noaa] fetch 202503 (2025-03-01..2025-03-31)
+2026-04-18T17:09:58 INFO  [noaa] 202503: 124 rekordów, 20.2 KB w 3.6s
+2026-04-18T17:10:17 INFO  [noaa] fetch 202504 (2025-04-01..2025-04-30)
+2026-04-18T17:10:18 INFO  [noaa] 202504: 120 rekordów, 19.5 KB w 0.8s
+2026-04-18T17:10:38 INFO  [noaa] fetch 202505 (2025-05-01..2025-05-31)
+2026-04-18T17:10:39 INFO  [noaa] 202505: 124 rekordów, 20.2 KB w 0.8s
+2026-04-18T17:10:58 INFO  [noaa] fetch 202506 (2025-06-01..2025-06-30)
+2026-04-18T17:10:58 INFO  [noaa] 202506: 120 rekordów, 19.5 KB w 0.8s
+2026-04-18T17:11:17 INFO  [noaa] fetch 202507 (2025-07-01..2025-07-31)
+2026-04-18T17:11:18 INFO  [noaa] 202507: 124 rekordów, 20.2 KB w 0.8s
+2026-04-18T17:11:38 INFO  [noaa] fetch 202508 (2025-08-01..2025-08-31)
+2026-04-18T17:11:38 INFO  [noaa] 202508: 124 rekordów, 20.2 KB w -0.2s
+2026-04-18T17:11:58 INFO  [noaa] fetch 202509 (2025-09-01..2025-09-30)
+2026-04-18T17:11:59 INFO  [noaa] 202509: 120 rekordów, 19.5 KB w 0.8s
+2026-04-18T17:12:17 INFO  [noaa] fetch 202510 (2025-10-01..2025-10-31)
+2026-04-18T17:12:18 INFO  [noaa] 202510: 124 rekordów, 20.2 KB w 0.8s
+2026-04-18T17:12:37 INFO  [noaa] fetch 202511 (2025-11-01..2025-11-30)
+2026-04-18T17:12:38 INFO  [noaa] 202511: 120 rekordów, 19.5 KB w 0.8s
+2026-04-18T17:12:58 INFO  [noaa] done: noaa                   9 new,   0 skipped,     0.18 MB pulled, 0 errors
+2026-04-18T17:12:58 INFO  [events] start (dataset=bkfu-528j)
+2026-04-18T17:12:58 INFO  [events] fetch 202503
+2026-04-18T17:13:36 INFO  [events] 202503: 176335 rekordów, 34657.2 KB w 38.4s
+2026-04-18T17:14:02 INFO  [events] fetch 202504
+2026-04-18T17:15:36 INFO  [events] 202504: 853238 rekordów, 186629.8 KB w 92.6s
+2026-04-18T17:16:07 INFO  [events] fetch 202505
+2026-04-18T17:17:50 INFO  [events] 202505: 901258 rekordów, 192100.4 KB w 101.5s
+2026-04-18T17:18:20 INFO  [events] fetch 202506
+2026-04-18T17:19:55 INFO  [events] 202506: 823560 rekordów, 172008.1 KB w 92.9s
+2026-04-18T17:20:18 INFO  [events] fetch 202507
+2026-04-18T17:21:50 INFO  [events] 202507: 664106 rekordów, 134659.2 KB w 91.6s
+2026-04-18T17:22:13 INFO  [events] fetch 202508
+2026-04-18T17:24:14 INFO  [events] 202508: 771775 rekordów, 155377.3 KB w 120.6s
+2026-04-18T17:24:37 INFO  [events] fetch 202509
+2026-04-18T17:26:23 INFO  [events] 202509: 809999 rekordów, 156773.8 KB w 104.5s
+2026-04-18T17:26:46 INFO  [events] fetch 202510
+2026-04-18T17:28:31 INFO  [events] 202510: 947971 rekordów, 182990.1 KB w 103.8s
+2026-04-18T17:28:56 INFO  [events] fetch 202511
+2026-04-18T17:29:59 INFO  [events] 202511: 588543 rekordów, 114467.5 KB w 62.9s
+2026-04-18T17:30:24 INFO  [events] done: events                 9 new,   0 skipped,  1361.58 MB pulled, 0 errors
+2026-04-18T17:30:24 INFO  [station_to_borough] start
+2026-04-18T17:30:24 INFO  [station_to_borough] GET https://data.cityofnewyork.us/api/geospatial/wh2p-dxnf?method=export&format=GeoJSON
+2026-04-18T17:30:24 INFO  [station_to_borough] GeoJSON pobrany (139.5 KB)
+2026-04-18T17:30:24 INFO  [station_to_borough] wczytano 5 poligonów dzielnic: Staten Island, Manhattan, Bronx, Brooklyn, Queens
+2026-04-18T17:30:24 INFO  [station_to_borough] pobieram najnowszy Citi Bike: /raw/citibike/2026-04-18/202511-citibike-tripdata.zip
+2026-04-18T17:30:55 INFO  [station_to_borough] pobrano 667.1 MB w 31.4s
+2026-04-18T17:30:55 INFO  [station_to_borough] czytam stacje z 202511-citibike-tripdata_4.csv (w ZIP)
+2026-04-18T17:31:04 INFO  [station_to_borough] unikalnych stacji: 2168
+2026-04-18T17:31:06 INFO  [station_to_borough] rozkład dzielnic: {'Brooklyn': 741, 'Manhattan': 662, 'Queens': 443, 'Bronx': 322}
+2026-04-18T17:31:45 INFO  [station_to_borough] done: station_to_borough     2 new,   0 skipped,     0.27 MB pulled, 0 errors
+2026-04-18T17:32:03 INFO  [manifest] zapisany w /meta/manifest.json (29 wpisów)
+2026-04-18T17:32:03 INFO  === SUMMARY ===
+2026-04-18T17:32:03 INFO    citibike               9 new,   0 skipped,  7716.77 MB pulled, 0 errors
+2026-04-18T17:32:03 INFO    noaa                   9 new,   0 skipped,     0.18 MB pulled, 0 errors
+2026-04-18T17:32:03 INFO    events                 9 new,   0 skipped,  1361.58 MB pulled, 0 errors
+2026-04-18T17:32:03 INFO    station_to_borough     2 new,   0 skipped,     0.27 MB pulled, 0 errors
+2026-04-18T17:32:03 INFO    TOTAL: 29 new, 0 skipped, 9078.8 MB, 0 errors, duration 2446.7s
+2026-04-18T17:40:31 INFO  [log] lokalny → HDFS /logs/acquisition-2026-04-18T14-51-17Z.log
+2026-04-18T17:40:31 INFO  === acquisition run finished (0 errors) ===

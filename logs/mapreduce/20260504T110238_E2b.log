@@ -1,0 +1,18 @@
+=== E2b start: 2026-05-04T11:02:38+02:00 ===
+Driver: pl.pwr.bigdata.mr.stage2.EventsAggDriver
+Input:  /raw/events
+Output: /processed/T2_events
+Extra:  
+2026-05-04 18:02:47,984 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at master/10.0.2.4:8050
+2026-05-04 18:02:50,090 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/root/.staging/job_1777883474743_0004
+2026-05-04 18:02:51,265 INFO input.FileInputFormat: Total input files to process : 9
+2026-05-04 18:02:51,985 INFO mapreduce.JobSubmitter: number of splits:15
+2026-05-04 18:02:52,687 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1777883474743_0004
+2026-05-04 18:02:52,688 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2026-05-04 18:02:53,193 INFO conf.Configuration: resource-types.xml not found
+2026-05-04 18:02:53,195 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2026-05-04 18:02:53,332 INFO impl.YarnClientImpl: Submitted application application_1777883474743_0004
+2026-05-04 18:02:53,433 INFO mapreduce.Job: The url to track the job: http://master:8088/proxy/application_1777883474743_0004/
+2026-05-04 18:02:53,435 INFO mapreduce.Job: Running job: job_1777883474743_0004
+2026-05-04 18:03:14,489 INFO mapreduce.Job: Job job_1777883474743_0004 running in uber mode : false
+2026-05-04 18:03:14,491 INFO mapreduce.Job:  map 0% reduce 0%

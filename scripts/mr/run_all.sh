@@ -9,11 +9,13 @@ mkdir -p "$(dirname "${SUMMARY_LOG}")"
 MONTH_FILTER=""
 SKIP_PREPARE=0
 SKIP_BUILD=0
+SAMPLE=0
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --month) MONTH_FILTER="$2"; shift 2;;
     --skip-prepare) SKIP_PREPARE=1; shift;;
     --skip-build) SKIP_BUILD=1; shift;;
+    --sample) SAMPLE=1; shift;;
     *) echo "Unknown arg: $1"; exit 2;;
   esac
 done
@@ -23,6 +25,7 @@ done
   echo "Month filter: ${MONTH_FILTER:-<all>}"
   echo "Skip prepare: ${SKIP_PREPARE}"
   echo "Skip build:   ${SKIP_BUILD}"
+  echo "Sample mode:  ${SAMPLE}"
 } | tee -a "${SUMMARY_LOG}"
 
 PIPELINE_START_NS=$(date +%s%N)
@@ -32,11 +35,10 @@ if [[ "${SKIP_BUILD}" -eq 0 ]]; then
 fi
 
 if [[ "${SKIP_PREPARE}" -eq 0 ]]; then
-  if [[ -n "${MONTH_FILTER}" ]]; then
-    "${REPO_ROOT}/scripts/mr/prepare_inputs.sh" --month "${MONTH_FILTER}" 2>&1 | tee -a "${SUMMARY_LOG}"
-  else
-    "${REPO_ROOT}/scripts/mr/prepare_inputs.sh" 2>&1 | tee -a "${SUMMARY_LOG}"
-  fi
+  PREP_ARGS=()
+  [[ -n "${MONTH_FILTER}" ]] && PREP_ARGS+=(--month "${MONTH_FILTER}")
+  [[ "${SAMPLE}" -eq 1 ]] && PREP_ARGS+=(--sample)
+  "${REPO_ROOT}/scripts/mr/prepare_inputs.sh" "${PREP_ARGS[@]}" 2>&1 | tee -a "${SUMMARY_LOG}"
 fi
 
 run_stage() {

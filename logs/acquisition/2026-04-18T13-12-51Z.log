@@ -1,0 +1,48 @@
+2026-04-18T15:12:51 INFO  ======================================================================
+2026-04-18T15:12:51 INFO  === acquisition run started (run_date=2026-04-18, sources=citibike,noaa,events,station_to_borough) ===
+2026-04-18T15:12:51 INFO  log file: /mnt/c/Users/Admin/Desktop/magisterka_pwr/semestry/III/przetwarzanie_danych/przetwarzanie-danych-pwr/logs/acquisition/2026-04-18T13-12-51Z.log
+2026-04-18T15:13:06 INFO  [manifest] załadowany z /meta/manifest.json (29 wpisów)
+2026-04-18T15:13:06 INFO  [citibike] start
+2026-04-18T15:13:20 INFO  [citibike] skip 202503-citibike-tripdata.zip (already in manifest, 618.3 MB)
+2026-04-18T15:13:20 INFO  [citibike] skip 202504-citibike-tripdata.zip (already in manifest, 727.2 MB)
+2026-04-18T15:13:20 INFO  [citibike] skip 202505-citibike-tripdata.zip (already in manifest, 844.4 MB)
+2026-04-18T15:13:20 INFO  [citibike] skip 202506-citibike-tripdata.zip (already in manifest, 929.0 MB)
+2026-04-18T15:13:20 INFO  [citibike] skip 202507-citibike-tripdata.zip (already in manifest, 973.9 MB)
+2026-04-18T15:13:20 INFO  [citibike] skip 202508-citibike-tripdata.zip (already in manifest, 1000.3 MB)
+2026-04-18T15:13:20 INFO  [citibike] skip 202509-citibike-tripdata.zip (already in manifest, 1032.4 MB)
+2026-04-18T15:13:20 INFO  [citibike] skip 202510-citibike-tripdata.zip (already in manifest, 924.1 MB)
+2026-04-18T15:13:20 INFO  [citibike] skip 202511-citibike-tripdata.zip (already in manifest, 667.1 MB)
+2026-04-18T15:13:20 INFO  [citibike] done: citibike               0 new,   9 skipped,     0.00 MB pulled, 0 errors
+2026-04-18T15:13:20 INFO  [noaa] start
+2026-04-18T15:13:20 INFO  [noaa] skip noaa_USW00094728_202503.json (already in manifest, 20.2 KB)
+2026-04-18T15:13:20 INFO  [noaa] skip noaa_USW00094728_202504.json (already in manifest, 19.5 KB)
+2026-04-18T15:13:20 INFO  [noaa] skip noaa_USW00094728_202505.json (already in manifest, 20.2 KB)
+2026-04-18T15:13:20 INFO  [noaa] skip noaa_USW00094728_202506.json (already in manifest, 19.5 KB)
+2026-04-18T15:13:20 INFO  [noaa] skip noaa_USW00094728_202507.json (already in manifest, 20.2 KB)
+2026-04-18T15:13:20 INFO  [noaa] skip noaa_USW00094728_202508.json (already in manifest, 20.2 KB)
+2026-04-18T15:13:20 INFO  [noaa] skip noaa_USW00094728_202509.json (already in manifest, 19.5 KB)
+2026-04-18T15:13:20 INFO  [noaa] skip noaa_USW00094728_202510.json (already in manifest, 20.2 KB)
+2026-04-18T15:13:20 INFO  [noaa] skip noaa_USW00094728_202511.json (already in manifest, 19.5 KB)
+2026-04-18T15:13:20 INFO  [noaa] done: noaa                   0 new,   9 skipped,     0.00 MB pulled, 0 errors
+2026-04-18T15:13:20 INFO  [events] start (dataset=bkfu-528j)
+2026-04-18T15:13:20 INFO  [events] skip events_202503.csv (already in manifest, 35.5 MB)
+2026-04-18T15:13:20 INFO  [events] skip events_202504.csv (already in manifest, 191.1 MB)
+2026-04-18T15:13:20 INFO  [events] skip events_202505.csv (already in manifest, 196.7 MB)
+2026-04-18T15:13:20 INFO  [events] skip events_202506.csv (already in manifest, 176.1 MB)
+2026-04-18T15:13:20 INFO  [events] skip events_202507.csv (already in manifest, 137.9 MB)
+2026-04-18T15:13:20 INFO  [events] skip events_202508.csv (already in manifest, 159.1 MB)
+2026-04-18T15:13:20 INFO  [events] skip events_202509.csv (already in manifest, 160.5 MB)
+2026-04-18T15:13:20 INFO  [events] skip events_202510.csv (already in manifest, 187.4 MB)
+2026-04-18T15:13:20 INFO  [events] skip events_202511.csv (already in manifest, 117.2 MB)
+2026-04-18T15:13:20 INFO  [events] done: events                 0 new,   9 skipped,     0.00 MB pulled, 0 errors
+2026-04-18T15:13:20 INFO  [station_to_borough] start
+2026-04-18T15:13:20 INFO  [station_to_borough] skip — stations_2026-04-18.csv i borough_boundaries_2026-04-18.geojson już w manifeście
+2026-04-18T15:13:45 INFO  [manifest] zapisany w /meta/manifest.json (29 wpisów)
+2026-04-18T15:13:45 INFO  === SUMMARY ===
+2026-04-18T15:13:45 INFO    citibike               0 new,   9 skipped,     0.00 MB pulled, 0 errors
+2026-04-18T15:13:45 INFO    noaa                   0 new,   9 skipped,     0.00 MB pulled, 0 errors
+2026-04-18T15:13:45 INFO    events                 0 new,   9 skipped,     0.00 MB pulled, 0 errors
+2026-04-18T15:13:45 INFO    station_to_borough     0 new,   2 skipped,     0.00 MB pulled, 0 errors
+2026-04-18T15:13:45 INFO    TOTAL: 0 new, 29 skipped, 0.0 MB, 0 errors, duration 54.0s
+2026-04-18T15:14:11 INFO  [log] lokalny → HDFS /logs/acquisition-2026-04-18T13-12-51Z.log
+2026-04-18T15:14:11 INFO  === acquisition run finished (0 errors) ===

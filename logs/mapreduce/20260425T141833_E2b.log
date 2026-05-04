@@ -1,0 +1,80 @@
+=== E2b start: 2026-04-25T14:18:33+02:00 ===
+Driver: pl.pwr.bigdata.mr.stage2.EventsAggDriver
+Input:  /raw/events
+Output: /processed/T2_events
+Extra:  
+2026-04-25 21:18:44,372 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at master/10.0.2.4:8050
+2026-04-25 21:18:45,474 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/root/.staging/job_1777119380030_0001
+2026-04-25 21:18:46,923 INFO input.FileInputFormat: Total input files to process : 9
+2026-04-25 21:18:47,929 INFO mapreduce.JobSubmitter: number of splits:15
+2026-04-25 21:18:48,441 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1777119380030_0001
+2026-04-25 21:18:48,441 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2026-04-25 21:18:48,883 INFO conf.Configuration: resource-types.xml not found
+2026-04-25 21:18:48,884 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2026-04-25 21:18:50,166 INFO impl.YarnClientImpl: Submitted application application_1777119380030_0001
+2026-04-25 21:18:50,457 INFO mapreduce.Job: The url to track the job: http://master:8088/proxy/application_1777119380030_0001/
+2026-04-25 21:18:50,459 INFO mapreduce.Job: Running job: job_1777119380030_0001
+2026-04-25 21:19:15,392 INFO mapreduce.Job: Job job_1777119380030_0001 running in uber mode : false
+2026-04-25 21:19:15,400 INFO mapreduce.Job:  map 0% reduce 0%
+2026-04-25 21:21:04,268 INFO mapreduce.Job:  map 1% reduce 0%
+2026-04-25 21:26:02,037 INFO mapreduce.Job:  map 2% reduce 0%
+2026-04-25 21:26:08,757 INFO mapreduce.Job:  map 3% reduce 0%
+2026-04-25 21:26:18,286 INFO mapreduce.Job:  map 4% reduce 0%
+2026-04-25 21:26:50,895 INFO mapreduce.Job:  map 5% reduce 0%
+2026-04-25 21:26:56,972 INFO mapreduce.Job:  map 6% reduce 0%
+2026-04-25 21:26:57,994 INFO mapreduce.Job:  map 8% reduce 0%
+2026-04-25 21:27:03,109 INFO mapreduce.Job:  map 10% reduce 0%
+2026-04-25 21:27:04,135 INFO mapreduce.Job:  map 11% reduce 0%
+2026-04-25 21:27:13,491 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:14,499 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:15,500 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:14,714 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:15,593 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:16,595 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:17,596 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:18,599 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:19,602 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:20,608 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:20,796 INFO retry.RetryInvocationHandler: java.net.ConnectException: Call From master/10.0.2.4 to master:8050 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused, while invoking ApplicationClientProtocolPBClientImpl.getApplicationReport over null. Trying to failover immediately. Current retry count: 0.
+2026-04-25 21:27:21,839 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:22,847 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:23,863 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:29,804 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:30,829 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:31,831 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:32,833 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:33,838 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:34,839 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:35,855 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:35,936 INFO retry.RetryInvocationHandler: java.net.ConnectException: Call From master/10.0.2.4 to master:8050 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused, while invoking ApplicationClientProtocolPBClientImpl.getApplicationReport over null after 1 failover attempts. Trying to failover after sleeping for 17462ms. Current retry count: 1.
+2026-04-25 21:27:51,717 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:27:59,236 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:28:00,244 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:28:01,245 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:28:02,248 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:28:03,256 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:28:04,266 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:28:05,272 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:28:06,275 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:28:07,276 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:28:07,326 INFO retry.RetryInvocationHandler: java.net.ConnectException: Call From master/10.0.2.4 to master:8050 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused, while invoking ApplicationClientProtocolPBClientImpl.getApplicationReport over null after 2 failover attempts. Trying to failover after sleeping for 31906ms. Current retry count: 2.
+2026-04-25 21:28:37,841 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:28:38,842 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:28:39,843 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:28:40,844 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:28:41,846 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:28:42,848 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:28:41,263 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:28:42,264 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:28:43,266 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:28:44,267 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:28:44,272 INFO retry.RetryInvocationHandler: java.net.ConnectException: Call From master/10.0.2.4 to master:8050 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused, while invoking ApplicationClientProtocolPBClientImpl.getApplicationReport over null after 3 failover attempts. Trying to failover after sleeping for 40785ms. Current retry count: 3.
+2026-04-25 21:29:23,635 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:29:24,638 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:29:25,639 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:29:26,641 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:29:27,642 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:29:28,644 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:29:29,645 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:29:30,646 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2026-04-25 21:29:31,648 INFO ipc.Client: Retrying connect to server: master/10.0.2.4:8050. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)

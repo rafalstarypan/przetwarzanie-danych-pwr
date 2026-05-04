@@ -1,0 +1,56 @@
+2026-04-21T17:41:15 INFO  ======================================================================
+2026-04-21T17:41:15 INFO  === acquisition run started (run_date=2026-04-21, sources=citibike,noaa,events,station_to_borough) ===
+2026-04-21T17:41:15 INFO  log file: /mnt/c/Users/Admin/Desktop/magisterka_pwr/semestry/III/przetwarzanie_danych/przetwarzanie-danych-pwr/logs/acquisition/2026-04-21T15-41-15Z.log
+2026-04-21T17:41:31 INFO  [manifest] załadowany z /meta/manifest.json (29 wpisów)
+2026-04-21T17:41:31 INFO  [citibike] start
+2026-04-21T17:41:45 INFO  [citibike] skip 202503-citibike-tripdata.zip (already in manifest, 618.3 MB)
+2026-04-21T17:41:45 INFO  [citibike] skip 202504-citibike-tripdata.zip (already in manifest, 727.2 MB)
+2026-04-21T17:41:45 INFO  [citibike] skip 202505-citibike-tripdata.zip (already in manifest, 844.4 MB)
+2026-04-21T17:41:45 INFO  [citibike] skip 202506-citibike-tripdata.zip (already in manifest, 929.0 MB)
+2026-04-21T17:41:45 INFO  [citibike] skip 202507-citibike-tripdata.zip (already in manifest, 973.9 MB)
+2026-04-21T17:41:45 INFO  [citibike] skip 202508-citibike-tripdata.zip (already in manifest, 1000.3 MB)
+2026-04-21T17:41:45 INFO  [citibike] skip 202509-citibike-tripdata.zip (already in manifest, 1032.4 MB)
+2026-04-21T17:41:45 INFO  [citibike] skip 202510-citibike-tripdata.zip (already in manifest, 924.1 MB)
+2026-04-21T17:41:45 INFO  [citibike] skip 202511-citibike-tripdata.zip (already in manifest, 667.1 MB)
+2026-04-21T17:41:45 INFO  [citibike] done: citibike               0 new,   9 skipped,     0.00 MB pulled, 0 errors
+2026-04-21T17:41:45 INFO  [noaa] start
+2026-04-21T17:41:45 INFO  [noaa] skip noaa_USW00094728_202503.json (already in manifest, 20.2 KB)
+2026-04-21T17:41:45 INFO  [noaa] skip noaa_USW00094728_202504.json (already in manifest, 19.5 KB)
+2026-04-21T17:41:45 INFO  [noaa] skip noaa_USW00094728_202505.json (already in manifest, 20.2 KB)
+2026-04-21T17:41:45 INFO  [noaa] skip noaa_USW00094728_202506.json (already in manifest, 19.5 KB)
+2026-04-21T17:41:45 INFO  [noaa] skip noaa_USW00094728_202507.json (already in manifest, 20.2 KB)
+2026-04-21T17:41:45 INFO  [noaa] skip noaa_USW00094728_202508.json (already in manifest, 20.2 KB)
+2026-04-21T17:41:45 INFO  [noaa] skip noaa_USW00094728_202509.json (already in manifest, 19.5 KB)
+2026-04-21T17:41:45 INFO  [noaa] skip noaa_USW00094728_202510.json (already in manifest, 20.2 KB)
+2026-04-21T17:41:45 INFO  [noaa] skip noaa_USW00094728_202511.json (already in manifest, 19.5 KB)
+2026-04-21T17:41:45 INFO  [noaa] done: noaa                   0 new,   9 skipped,     0.00 MB pulled, 0 errors
+2026-04-21T17:41:45 INFO  [events] start (dataset=bkfu-528j)
+2026-04-21T17:41:45 INFO  [events] skip events_202503.csv (already in manifest, 35.5 MB)
+2026-04-21T17:41:45 INFO  [events] skip events_202504.csv (already in manifest, 191.1 MB)
+2026-04-21T17:41:45 INFO  [events] skip events_202505.csv (already in manifest, 196.7 MB)
+2026-04-21T17:41:45 INFO  [events] skip events_202506.csv (already in manifest, 176.1 MB)
+2026-04-21T17:41:45 INFO  [events] skip events_202507.csv (already in manifest, 137.9 MB)
+2026-04-21T17:41:45 INFO  [events] skip events_202508.csv (already in manifest, 159.1 MB)
+2026-04-21T17:41:45 INFO  [events] skip events_202509.csv (already in manifest, 160.5 MB)
+2026-04-21T17:41:45 INFO  [events] skip events_202510.csv (already in manifest, 187.4 MB)
+2026-04-21T17:41:45 INFO  [events] skip events_202511.csv (already in manifest, 117.2 MB)
+2026-04-21T17:41:45 INFO  [events] done: events                 0 new,   9 skipped,     0.00 MB pulled, 0 errors
+2026-04-21T17:41:45 INFO  [station_to_borough] start
+2026-04-21T17:41:45 INFO  [station_to_borough] GET https://data.cityofnewyork.us/api/geospatial/wh2p-dxnf?method=export&format=GeoJSON
+2026-04-21T17:41:45 INFO  [station_to_borough] GeoJSON pobrany (139.5 KB)
+2026-04-21T17:41:46 INFO  [station_to_borough] wczytano 5 poligonów dzielnic: Staten Island, Manhattan, Bronx, Brooklyn, Queens
+2026-04-21T17:41:46 INFO  [station_to_borough] pobieram najnowszy Citi Bike: /raw/citibike/2026-04-18/202511-citibike-tripdata.zip
+2026-04-21T17:42:33 INFO  [station_to_borough] pobrano 667.1 MB w 47.6s
+2026-04-21T17:42:33 INFO  [station_to_borough] czytam stacje z 202511-citibike-tripdata_4.csv (w ZIP)
+2026-04-21T17:42:48 INFO  [station_to_borough] unikalnych stacji: 2168
+2026-04-21T17:42:50 INFO  [station_to_borough] rozkład dzielnic: {'Brooklyn': 741, 'Manhattan': 662, 'Queens': 443, 'Bronx': 322}
+2026-04-21T17:43:39 INFO  [station_to_borough] done: station_to_borough     2 new,   0 skipped,     0.27 MB pulled, 0 errors
+2026-04-21T17:44:03 INFO  [manifest] zapisany w /meta/manifest.json (31 wpisów)
+2026-04-21T17:44:03 INFO  === SUMMARY ===
+2026-04-21T17:44:03 INFO    citibike               0 new,   9 skipped,     0.00 MB pulled, 0 errors
+2026-04-21T17:44:03 INFO    noaa                   0 new,   9 skipped,     0.00 MB pulled, 0 errors
+2026-04-21T17:44:03 INFO    events                 0 new,   9 skipped,     0.00 MB pulled, 0 errors
+2026-04-21T17:44:03 INFO    station_to_borough     2 new,   0 skipped,     0.27 MB pulled, 0 errors
+2026-04-21T17:44:03 INFO    TOTAL: 2 new, 27 skipped, 0.3 MB, 0 errors, duration 168.5s
+2026-04-21T17:44:26 INFO  [log] lokalny → HDFS /logs/acquisition-2026-04-21T15-41-15Z.log
+2026-04-21T17:44:26 INFO  === acquisition run finished (0 errors) ===

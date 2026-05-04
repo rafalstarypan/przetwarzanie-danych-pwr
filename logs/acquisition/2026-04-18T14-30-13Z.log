@@ -1,0 +1,9 @@
+2026-04-18T16:30:13 INFO  ======================================================================
+2026-04-18T16:30:13 INFO  === acquisition run started (run_date=2026-04-18, sources=citibike,noaa,events,station_to_borough) ===
+2026-04-18T16:30:13 INFO  log file: /mnt/c/Users/Admin/Desktop/magisterka_pwr/semestry/III/przetwarzanie_danych/przetwarzanie-danych-pwr/logs/acquisition/2026-04-18T14-30-13Z.log
+2026-04-18T16:30:25 INFO  [manifest] brak /meta/manifest.json w HDFS, startuję z pustym manifestem
+2026-04-18T16:30:25 INFO  [citibike] start
+2026-04-18T16:31:02 INFO  [citibike] downloading 202503-citibike-tripdata.zip (618.3 MB) from s3://tripdata/
+2026-04-18T16:31:44 INFO  [citibike] downloaded 618260276 B in 42.7s (14.48 MB/s)
+2026-04-18T16:33:21 INFO  [citibike] downloading 202504-citibike-tripdata.zip (727.2 MB) from s3://tripdata/
+2026-04-18T16:34:04 INFO  [citibike] downloaded 727249076 B in 42.9s (16.95 MB/s)

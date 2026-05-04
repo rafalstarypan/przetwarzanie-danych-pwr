@@ -1,0 +1,67 @@
+2026-04-18T13:35:49 INFO  ======================================================================
+2026-04-18T13:35:49 INFO  === acquisition run started (run_date=2026-04-18, sources=citibike,noaa,events,station_to_borough) ===
+2026-04-18T13:35:49 INFO  log file: /mnt/c/Users/Admin/Desktop/magisterka_pwr/semestry/III/przetwarzanie_danych/przetwarzanie-danych-pwr/logs/acquisition/2026-04-18T11-35-49Z.log
+2026-04-18T13:35:57 INFO  [manifest] brak /meta/manifest.json w HDFS, startuję z pustym manifestem
+2026-04-18T13:35:57 INFO  [citibike] start
+2026-04-18T13:36:10 WARNING [citibike] plik 202503-citibike-tripdata.csv.zip nie istnieje na S3 jeszcze — pomijam
+2026-04-18T13:36:10 WARNING [citibike] plik 202504-citibike-tripdata.csv.zip nie istnieje na S3 jeszcze — pomijam
+2026-04-18T13:36:10 WARNING [citibike] plik 202505-citibike-tripdata.csv.zip nie istnieje na S3 jeszcze — pomijam
+2026-04-18T13:36:11 WARNING [citibike] plik 202506-citibike-tripdata.csv.zip nie istnieje na S3 jeszcze — pomijam
+2026-04-18T13:36:11 WARNING [citibike] plik 202507-citibike-tripdata.csv.zip nie istnieje na S3 jeszcze — pomijam
+2026-04-18T13:36:11 WARNING [citibike] plik 202508-citibike-tripdata.csv.zip nie istnieje na S3 jeszcze — pomijam
+2026-04-18T13:36:11 WARNING [citibike] plik 202509-citibike-tripdata.csv.zip nie istnieje na S3 jeszcze — pomijam
+2026-04-18T13:36:11 WARNING [citibike] plik 202510-citibike-tripdata.csv.zip nie istnieje na S3 jeszcze — pomijam
+2026-04-18T13:36:11 WARNING [citibike] plik 202511-citibike-tripdata.csv.zip nie istnieje na S3 jeszcze — pomijam
+2026-04-18T13:36:11 INFO  [citibike] done: citibike               0 new,   0 skipped,     0.00 MB pulled, 0 errors
+2026-04-18T13:36:11 INFO  [noaa] start
+2026-04-18T13:36:11 INFO  [noaa] fetch 202503 (2025-03-01..2025-03-31)
+2026-04-18T13:36:15 INFO  [noaa] 202503: 124 rekordów, 20.2 KB w 3.7s
+2026-04-18T13:36:39 INFO  [noaa] fetch 202504 (2025-04-01..2025-04-30)
+2026-04-18T13:36:40 INFO  [noaa] 202504: 120 rekordów, 19.5 KB w 0.8s
+2026-04-18T13:37:02 INFO  [noaa] fetch 202505 (2025-05-01..2025-05-31)
+2026-04-18T13:37:04 INFO  [noaa] 202505: 124 rekordów, 20.2 KB w 1.1s
+2026-04-18T13:37:26 INFO  [noaa] fetch 202506 (2025-06-01..2025-06-30)
+2026-04-18T13:37:26 INFO  [noaa] 202506: 120 rekordów, 19.5 KB w 0.8s
+2026-04-18T13:37:50 INFO  [noaa] fetch 202507 (2025-07-01..2025-07-31)
+2026-04-18T13:37:51 INFO  [noaa] 202507: 124 rekordów, 20.2 KB w 0.8s
+2026-04-18T13:38:15 INFO  [noaa] fetch 202508 (2025-08-01..2025-08-31)
+2026-04-18T13:38:16 INFO  [noaa] 202508: 124 rekordów, 20.2 KB w 0.9s
+2026-04-18T13:38:41 INFO  [noaa] fetch 202509 (2025-09-01..2025-09-30)
+2026-04-18T13:38:41 INFO  [noaa] 202509: 120 rekordów, 19.5 KB w 0.9s
+2026-04-18T13:39:04 INFO  [noaa] fetch 202510 (2025-10-01..2025-10-31)
+2026-04-18T13:39:05 INFO  [noaa] 202510: 124 rekordów, 20.2 KB w 0.8s
+2026-04-18T13:39:27 INFO  [noaa] fetch 202511 (2025-11-01..2025-11-30)
+2026-04-18T13:39:28 INFO  [noaa] 202511: 120 rekordów, 19.5 KB w 1.1s
+2026-04-18T13:39:51 INFO  [noaa] done: noaa                   9 new,   0 skipped,     0.18 MB pulled, 0 errors
+2026-04-18T13:39:51 INFO  [events] start (dataset=tvpp-9vvx)
+2026-04-18T13:39:51 INFO  [events] fetch 202503
+2026-04-18T13:39:53 INFO  [events] 202503: 0 rekordów, 0.2 KB w 2.1s
+2026-04-18T13:40:16 INFO  [events] fetch 202504
+2026-04-18T13:40:17 INFO  [events] 202504: 0 rekordów, 0.2 KB w 0.9s
+2026-04-18T13:40:42 INFO  [events] fetch 202505
+2026-04-18T13:40:42 INFO  [events] 202505: 0 rekordów, 0.2 KB w -0.3s
+2026-04-18T13:41:06 INFO  [events] fetch 202506
+2026-04-18T13:41:07 INFO  [events] 202506: 0 rekordów, 0.2 KB w 0.9s
+2026-04-18T13:41:29 INFO  [events] fetch 202507
+2026-04-18T13:41:30 INFO  [events] 202507: 0 rekordów, 0.2 KB w 0.9s
+2026-04-18T13:41:54 INFO  [events] fetch 202508
+2026-04-18T13:41:55 INFO  [events] 202508: 0 rekordów, 0.2 KB w 0.9s
+2026-04-18T13:42:18 INFO  [events] fetch 202509
+2026-04-18T13:42:19 INFO  [events] 202509: 0 rekordów, 0.2 KB w 1.0s
+2026-04-18T13:42:41 INFO  [events] fetch 202510
+2026-04-18T13:42:42 INFO  [events] 202510: 0 rekordów, 0.2 KB w 1.1s
+2026-04-18T13:43:06 INFO  [events] fetch 202511
+2026-04-18T13:43:17 INFO  [events] 202511: 0 rekordów, 0.2 KB w 10.7s
+2026-04-18T13:43:55 INFO  [events] done: events                 9 new,   0 skipped,     0.00 MB pulled, 0 errors
+2026-04-18T13:43:55 INFO  [station_to_borough] start
+2026-04-18T13:43:55 INFO  [station_to_borough] GET https://data.cityofnewyork.us/resource/tqmj-j8zm.geojson
+2026-04-18T13:43:56 ERROR [station_to_borough] GeoJSON FAIL: 404 Client Error: Not Found for url: https://data.cityofnewyork.us/resource/tqmj-j8zm.geojson
+2026-04-18T13:44:43 INFO  [manifest] zapisany w /meta/manifest.json (18 wpisów)
+2026-04-18T13:44:43 INFO  === SUMMARY ===
+2026-04-18T13:44:43 INFO    citibike               0 new,   0 skipped,     0.00 MB pulled, 0 errors
+2026-04-18T13:44:43 INFO    noaa                   9 new,   0 skipped,     0.18 MB pulled, 0 errors
+2026-04-18T13:44:43 INFO    events                 9 new,   0 skipped,     0.00 MB pulled, 0 errors
+2026-04-18T13:44:43 INFO    station_to_borough     0 new,   0 skipped,     0.00 MB pulled, 1 errors
+2026-04-18T13:44:43 INFO    TOTAL: 18 new, 0 skipped, 0.2 MB, 1 errors, duration 533.8s
+2026-04-18T13:45:32 INFO  [log] lokalny → HDFS /logs/acquisition-2026-04-18T11-35-49Z.log
+2026-04-18T13:45:32 INFO  === acquisition run finished (1 errors) ===

@@ -1,0 +1,151 @@
+﻿date	borough	total_rides	member_rides	avg_duration_min	temp	precip	snow	event_types	expected_rides	event_intensity	anomaly	demand_level
+2025-06-01	Bronx	3613	2750	16.74	14.45	0.00	0.00	Sport - Adult;Sport - Youth;Special Event;Sidewalk Sale;Stickball;Religious Event;Street Event	4315	high	false	low
+2025-06-01	Brooklyn	41738	31993	13.68	14.45	0.00	0.00	Special Event;Sport - Adult;Sport - Youth;Farmers Market;Parade;Street Event;Street Festival;Open Street Partner Event;Religious Event;Plaza Event;Block Party	35517	high	false	below_average
+2025-06-01	Manhattan	79198	59692	14.33	14.45	0.00	0.00	Sport - Adult;Sport - Youth;Special Event;Sidewalk Sale;Farmers Market;Production Event;Plaza Event;Street Event;Single Block Festival;Street Festival;Open Street Partner Event;Parade;Block Party	82184	high	false	low
+2025-06-01	Other	5866	4128	15.87	14.45	0.00	0.00		5360	none	false	average
+2025-06-01	Queens	9690	7510	12.90	14.45	0.00	0.00	Sport - Adult;Special Event;Sport - Youth;Open Street Partner Event;Farmers Market;Plaza Event;Parade;Street Event;Street Festival	9074	high	false	below_average
+2025-06-02	Bronx	5230	4277	13.87	16.70	0.00	0.00	Sport - Youth;Special Event;Sport - Adult;Plaza Event;Open Street Partner Event;Production Event	4496	high	false	above_average
+2025-06-02	Brooklyn	39110	32227	12.13	16.70	0.00	0.00	Sport - Adult;Special Event;Sport - Youth;Street Event;Street Festival;Religious Event	37552	medium	false	below_average
+2025-06-02	Manhattan	98125	82663	12.85	16.70	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Parade;Production Event;Plaza Partner Event	86334	medium	false	average
+2025-06-02	Other	6547	5281	13.77	16.70	0.00	0.00		5567	none	false	above_average
+2025-06-02	Queens	10320	8617	11.55	16.70	0.00	0.00	Special Event;Sport - Youth;Sport - Adult;Parade	9520	medium	false	below_average
+2025-06-03	Bronx	5558	4472	15.23	19.70	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Press Conference;Plaza Partner Event	4738	high	false	above_average
+2025-06-03	Brooklyn	42743	35284	12.54	19.70	0.00	0.00	Sport - Youth;Special Event;Sport - Adult;Plaza Partner Event;Street Event	40266	medium	false	average
+2025-06-03	Manhattan	113357	95623	13.07	19.70	0.00	0.00	Special Event;Production Event;Theater Load in and Load Outs;Sport - Youth;Sport - Adult;Farmers Market;Health Fair;Plaza Partner Event;Plaza Event	91866	high	false	high
+2025-06-03	Other	7087	5787	13.48	19.70	0.00	0.00		5844	none	false	high
+2025-06-03	Queens	11060	9165	11.35	19.70	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Open Street Partner Event	10113	high	false	average
+2025-06-04	Bronx	5865	4635	16.38	22.50	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Open Street Partner Event;Parade	4964	high	false	high
+2025-06-04	Brooklyn	46630	38214	12.85	22.50	0.00	0.00	Sport - Youth;Special Event;Sport - Adult;Plaza Partner Event;Farmers Market;Production Event	42799	high	false	above_average
+2025-06-04	Manhattan	120549	100929	13.26	22.50	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Street Event;Production Event;Sidewalk Sale;Open Street Partner Event;Farmers Market;Plaza Partner Event	97030	high	false	high
+2025-06-04	Other	7634	6205	14.21	22.50	0.00	0.00		6101	none	false	high
+2025-06-04	Queens	11595	9542	11.70	22.50	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Plaza Event;Street Event;Open Street Partner Event	10667	high	false	above_average
+2025-06-05	Bronx	5651	4378	20.23	25.85	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Farmers Market;Health Fair;Plaza Event;Street Event	5234	medium	false	high
+2025-06-05	Brooklyn	46496	37286	12.89	25.85	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Plaza Event;Production Event;Block Party;Religious Event;Street Event;Plaza Partner Event;Parade;Open Street Partner Event	45830	medium	false	above_average
+2025-06-05	Manhattan	116586	96190	13.14	25.85	0.00	0.00	Sport - Adult;Special Event;Production Event;Street Event;Sport - Youth;Farmers Market;Sidewalk Sale;Plaza Event;Single Block Festival;Plaza Partner Event	103208	high	false	high
+2025-06-05	Other	7156	5686	13.36	25.85	0.00	0.00		6410	none	false	high
+2025-06-05	Queens	11165	8956	12.21	25.85	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Parade;Street Event;Street Festival	11330	medium	false	above_average
+2025-06-06	Bronx	6221	4644	21.98	25.30	0.50	0.00	Sport - Adult;Sport - Youth;Special Event;Sidewalk Sale;Plaza Partner Event;Parade;Religious Event	5124	high	false	high
+2025-06-06	Brooklyn	50058	38701	13.12	25.30	0.50	0.00	Sport - Youth;Sport - Adult;Special Event;Street Event;Farmers Market;Religious Event;Plaza Event	44953	medium	false	high
+2025-06-06	Manhattan	109536	86754	13.33	25.30	0.50	0.00	Sport - Adult;Special Event;Sport - Youth;Sidewalk Sale;Farmers Market;Production Event;Street Event;Plaza Partner Event;Plaza Event	101022	high	false	above_average
+2025-06-06	Other	6679	5217	13.95	25.30	0.50	0.00		6278	none	false	above_average
+2025-06-06	Queens	11977	9252	12.35	25.30	0.50	0.00	Sport - Youth;Special Event;Sport - Adult;Religious Event	11110	medium	false	high
+2025-06-07	Bronx	3702	2732	20.67	21.65	17.80	0.00	Sport - Youth;Special Event;Sidewalk Sale;Sport - Adult;Street Event;Open Street Partner Event;Parade;Health Fair	2562	high	false	low
+2025-06-07	Brooklyn	37820	28344	13.13	21.65	17.80	0.00	Sport - Youth;Sport - Adult;Special Event;Parade;Block Party;Health Fair;Single Block Festival;Street Event;Open Street Partner Event;Plaza Event;Farmers Market;Clean-Up;Athletic Race / Tour	28523	high	false	below_average
+2025-06-07	Manhattan	73582	54747	14.08	21.65	17.80	0.00	Sport - Youth;Special Event;Production Event;Farmers Market;Sport - Adult;Athletic Race / Tour;Sidewalk Sale;Street Event;Parade;Religious Event;Street Festival;Plaza Partner Event;Health Fair;Clean-Up;Open Culture	53750	high	false	low
+2025-06-07	Other	4132	3053	14.53	21.65	17.80	0.00		3142	none	false	low
+2025-06-07	Queens	8983	6837	13.14	21.65	17.80	0.00	Sport - Adult;Sport - Youth;Special Event;Plaza Event;Block Party;Street Event;Production Event;Athletic Race / Tour;Parade;Single Block Festival;Health Fair;Sidewalk Sale;Open Street Partner Event	6527	high	false	low
+2025-06-08	Bronx	3910	2850	21.36	20.80	0.00	0.00	Sport - Youth;Sport - Adult;Stickball;Special Event;Sidewalk Sale;Religious Event;Single Block Festival;Production Event	4827	high	false	low
+2025-06-08	Brooklyn	45227	33522	13.83	20.80	0.00	0.00	Sport - Adult;Special Event;Sport - Youth;Plaza Event;Block Party;Street Festival;Open Street Partner Event;Parade;Religious Event;Health Fair;Farmers Market	41261	high	false	above_average
+2025-06-08	Manhattan	85291	62247	14.84	20.80	0.00	0.00	Sport - Adult;Sport - Youth;Special Event;Street Event;Production Event;Farmers Market;Parade;Sidewalk Sale;Street Festival;Single Block Festival	93895	high	false	below_average
+2025-06-08	Other	5682	4057	15.47	20.80	0.00	0.00		5945	none	false	below_average
+2025-06-08	Queens	10559	7938	13.13	20.80	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Street Event;Farmers Market;Athletic Race / Tour;Street Festival;Open Street Partner Event;Parade;Block Party	10331	high	false	average
+2025-06-09	Bronx	4566	3676	12.86	17.25	0.30	0.00	Sport - Youth;Sport - Adult;Special Event;Open Street Partner Event	4501	medium	false	below_average
+2025-06-09	Brooklyn	33207	27783	11.19	17.25	0.30	0.00	Sport - Youth;Sport - Adult;Special Event;Street Event	37822	medium	false	low
+2025-06-09	Manhattan	82448	70751	11.52	17.25	0.30	0.00	Sport - Adult;Sport - Youth;Special Event;Plaza Partner Event;Production Event;Street Event	86645	medium	false	below_average
+2025-06-09	Other	5092	4245	12.41	17.25	0.30	0.00		5569	none	false	low
+2025-06-09	Queens	8814	7363	10.50	17.25	0.30	0.00	Sport - Youth;Special Event;Sport - Adult;Street Event	9562	medium	false	low
+2025-06-10	Bronx	4143	3288	14.21	19.75	10.20	0.00	Sport - Youth;Special Event;Sport - Adult;Plaza Partner Event	3405	medium	false	below_average
+2025-06-10	Brooklyn	37148	30872	11.99	19.75	10.20	0.00	Sport - Youth;Special Event;Sport - Adult;Street Event;Production Event;Plaza Partner Event	32571	medium	false	low
+2025-06-10	Manhattan	89019	76439	12.41	19.75	10.20	0.00	Special Event;Sport - Adult;Sport - Youth;Plaza Partner Event;Street Event;Farmers Market;Production Event	68056	medium	false	below_average
+2025-06-10	Other	5514	4568	12.96	19.75	10.20	0.00		4197	none	false	below_average
+2025-06-10	Queens	9266	7629	11.06	19.75	10.20	0.00	Sport - Youth;Sport - Adult;Special Event;Farmers Market	7847	medium	false	low
+2025-06-11	Bronx	5621	4347	18.74	22.75	0.00	0.00	Special Event;Sport - Adult;Sport - Youth;Open Street Partner Event;Street Event	4984	medium	false	above_average
+2025-06-11	Brooklyn	48839	39744	12.96	22.75	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Plaza Partner Event;Farmers Market;Street Event;Production Event;Health Fair;Religious Event	43025	high	false	high
+2025-06-11	Manhattan	119220	99944	12.99	22.75	0.00	0.00	Sport - Youth;Special Event;Sport - Adult;Production Event;Sidewalk Sale;Street Event;Single Block Festival;Farmers Market;Plaza Partner Event;Plaza Event;Theater Load in and Load Outs	97491	medium	false	high
+2025-06-11	Other	7587	6226	14.28	22.75	0.00	0.00		6125	none	false	high
+2025-06-11	Queens	11899	9647	12.04	22.75	0.00	0.00	Sport - Youth;Special Event;Sport - Adult	10717	medium	false	high
+2025-06-12	Bronx	5857	4494	19.20	25.85	0.00	0.00	Special Event;Sport - Youth;Sport - Adult;Street Event;Street Festival;Farmers Market	5234	medium	false	high
+2025-06-12	Brooklyn	48737	39020	12.74	25.85	0.00	0.00	Special Event;Sport - Youth;Sport - Adult;Open Street Partner Event;Street Event;Plaza Partner Event;Health Fair	45830	medium	false	high
+2025-06-12	Manhattan	118283	97939	13.04	25.85	0.00	0.00	Sport - Youth;Special Event;Production Event;Farmers Market;Street Event;Sport - Adult;Sidewalk Sale;Single Block Festival;Plaza Partner Event;Open Street Partner Event;Parade	103208	medium	false	high
+2025-06-12	Other	7447	5970	13.79	25.85	0.00	0.00		6410	none	false	high
+2025-06-12	Queens	11827	9633	11.44	25.85	0.00	0.00	Sport - Youth;Special Event;Sport - Adult;Street Event;Sidewalk Sale	11330	medium	false	high
+2025-06-13	Bronx	6180	4777	20.81	22.50	0.00	0.00	Special Event;Sport - Youth;Sidewalk Sale;Plaza Partner Event;Sport - Adult;Single Block Festival	4964	medium	false	high
+2025-06-13	Brooklyn	50223	39512	12.98	22.50	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Street Event;Farmers Market;Open Street Partner Event;Block Party	42799	medium	false	high
+2025-06-13	Manhattan	110801	88797	13.36	22.50	0.00	0.00	Special Event;Production Event;Sport - Youth;Sport - Adult;Farmers Market;Street Event;Sidewalk Sale;Single Block Festival;Block Party;Parade;Plaza Partner Event;Religious Event	97030	medium	false	high
+2025-06-13	Other	7186	5599	13.93	22.50	0.00	0.00		6101	none	false	high
+2025-06-13	Queens	12006	9575	12.03	22.50	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Farmers Market;Religious Event	10667	medium	false	high
+2025-06-14	Bronx	2988	2328	14.55	17.50	5.80	0.00	Sport - Youth;Special Event;Sport - Adult;Open Street Partner Event;Street Event;Parade;Block Party;Sidewalk Sale;Farmers Market;Single Block Festival	3801	high	false	low
+2025-06-14	Brooklyn	25936	20317	11.84	17.50	5.80	0.00	Sport - Youth;Sport - Adult;Special Event;Block Party;Farmers Market;Parade;Open Street Partner Event;Street Event;Production Event;Single Block Festival;Religious Event;Plaza Partner Event	33875	high	false	low
+2025-06-14	Manhattan	49991	39811	12.03	17.50	5.80	0.00	Special Event;Sport - Adult;Sport - Youth;Sidewalk Sale;Farmers Market;Parade;Production Event;Street Event;Single Block Festival;Street Festival;Open Culture;Plaza Partner Event	74218	high	false	low
+2025-06-14	Other	3125	2365	12.61	17.50	5.80	0.00		4702	none	false	low
+2025-06-14	Queens	6356	5100	11.23	17.50	5.80	0.00	Sport - Youth;Special Event;Sport - Adult;Open Street Partner Event;Sidewalk Sale;Street Event;Single Block Festival;Block Party;Parade	8384	high	false	low
+2025-06-15	Bronx	3184	2382	19.27	16.40	0.80	0.00	Sport - Adult;Sport - Youth;Special Event;Stickball;Sidewalk Sale;Parade	4367	medium	false	low
+2025-06-15	Brooklyn	27766	21929	12.11	16.40	0.80	0.00	Sport - Youth;Special Event;Sport - Adult;Clean-Up;Production Event;Farmers Market;Open Street Partner Event;Street Event;Block Party;Plaza Event	36674	high	false	low
+2025-06-15	Manhattan	57213	45533	12.79	16.40	0.80	0.00	Special Event;Sport - Youth;Sport - Adult;Sidewalk Sale;Athletic Race / Tour;Farmers Market;Single Block Festival;Open Street Partner Event;Street Event;Plaza Partner Event;Production Event	83906	medium	false	low
+2025-06-15	Other	3667	2754	14.90	16.40	0.80	0.00		5410	none	false	low
+2025-06-15	Queens	7664	6062	11.57	16.40	0.80	0.00	Sport - Youth;Special Event;Sport - Adult;Street Event;Farmers Market;Open Street Partner Event	9282	medium	false	low
+2025-06-16	Bronx	5013	4026	15.62	18.10	3.80	0.00	Sport - Youth;Special Event;Sport - Adult;Open Street Partner Event	4111	low	false	average
+2025-06-16	Brooklyn	34795	29164	11.35	18.10	3.80	0.00	Sport - Youth;Sport - Adult;Special Event;Street Event	35935	low	false	low
+2025-06-16	Manhattan	84985	73111	12.07	18.10	3.80	0.00	Sport - Adult;Sport - Youth;Special Event;Theater Load in and Load Outs;Street Event;Production Event;Plaza Partner Event;Plaza Event	80011	low	false	below_average
+2025-06-16	Other	5423	4526	12.52	18.10	3.80	0.00		5081	none	false	below_average
+2025-06-16	Queens	9653	8003	10.90	18.10	3.80	0.00	Sport - Youth;Special Event;Sport - Adult;Street Event	8949	low	false	below_average
+2025-06-17	Bronx	4517	3655	17.68	18.05	0.50	0.00	Sport - Youth;Sport - Adult;Special Event;Plaza Partner Event;Street Event	4540	low	false	below_average
+2025-06-17	Brooklyn	37099	31333	11.64	18.05	0.50	0.00	Sport - Adult;Special Event;Sport - Youth;Street Event;Block Party;Plaza Partner Event;Production Event	38394	low	false	low
+2025-06-17	Manhattan	90154	78243	12.00	18.05	0.50	0.00	Sport - Youth;Special Event;Sport - Adult;Plaza Partner Event;Farmers Market;Theater Load in and Load Outs;Production Event	87652	low	false	below_average
+2025-06-17	Other	5378	4504	12.83	18.05	0.50	0.00		5611	none	false	below_average
+2025-06-17	Queens	9348	7829	10.80	18.05	0.50	0.00	Sport - Adult;Special Event;Sport - Youth;Farmers Market	9675	low	false	low
+2025-06-18	Bronx	5542	4209	19.21	23.60	0.80	0.00	Sport - Adult;Sport - Youth;Special Event;Street Event;Open Street Partner Event;Parade;Street Festival	4948	low	false	above_average
+2025-06-18	Brooklyn	44832	36704	12.44	23.60	0.80	0.00	Special Event;Sport - Youth;Farmers Market;Street Event;Sport - Adult;Plaza Partner Event;Religious Event	43187	medium	false	average
+2025-06-18	Manhattan	109614	91614	12.99	23.60	0.80	0.00	Sport - Youth;Special Event;Sport - Adult;Plaza Partner Event;Farmers Market;Street Event;Production Event;Sidewalk Sale;Plaza Event	97184	medium	false	above_average
+2025-06-18	Other	6414	5198	13.69	23.60	0.80	0.00		6073	none	false	above_average
+2025-06-18	Queens	11375	9223	11.78	23.60	0.80	0.00	Sport - Youth;Sport - Adult;Special Event	10707	medium	false	above_average
+2025-06-19	Bronx	3618	2730	18.07	26.10	16.50	0.00	Sport - Youth;Sport - Adult;Open Street Partner Event;Special Event;Street Event;Farmers Market;Religious Event	3091	low	false	low
+2025-06-19	Brooklyn	42683	33390	12.98	26.10	16.50	0.00	Sport - Youth;Special Event;Sport - Adult;Street Event;Single Block Festival;Open Street Partner Event;Plaza Partner Event	33535	low	false	average
+2025-06-19	Manhattan	80782	64584	13.31	26.10	16.50	0.00	Sport - Adult;Sport - Youth;Sidewalk Sale;Plaza Event;Special Event;Plaza Partner Event;Farmers Market;Open Street Partner Event;Street Event;Production Event;Block Party;Health Fair	65003	low	false	low
+2025-06-19	Other	4982	3792	14.50	26.10	16.50	0.00		3762	none	false	low
+2025-06-19	Queens	9388	7396	11.66	26.10	16.50	0.00	Sport - Youth;Sport - Adult;Special Event;Religious Event;Plaza Partner Event	7698	low	false	below_average
+2025-06-20	Bronx	6140	4651	23.89	23.60	0.00	0.00	Sport - Youth;Special Event;Farmers Market;Sport - Adult;Plaza Partner Event;Sidewalk Sale;Street Event;Religious Event	5052	medium	false	high
+2025-06-20	Brooklyn	49037	37905	13.52	23.60	0.00	0.00	Sport - Youth;Special Event;Farmers Market;Sport - Adult;Open Street Partner Event;Street Event;Block Party	43794	low	false	high
+2025-06-20	Manhattan	104719	82107	14.22	23.60	0.00	0.00	Sport - Youth;Special Event;Sidewalk Sale;Sport - Adult;Street Event;Plaza Event;Plaza Partner Event;Production Event;Farmers Market	99058	low	false	above_average
+2025-06-20	Other	5699	4435	14.12	23.60	0.00	0.00		6203	none	false	below_average
+2025-06-20	Queens	12382	9751	12.21	23.60	0.00	0.00	Sport - Youth;Special Event;Sport - Adult;Farmers Market;Street Event;Parade;Production Event	10885	low	false	high
+2025-06-21	Bronx	5074	3723	26.87	26.10	0.00	0.00	Sport - Adult;Special Event;Sport - Youth;Religious Event;Plaza Event;Single Block Festival;Block Party;Sidewalk Sale;Parade;Street Event;Open Street Partner Event	5254	high	false	average
+2025-06-21	Brooklyn	53968	37919	15.16	26.10	0.00	0.00	Sport - Adult;Sport - Youth;Special Event;Street Event;Parade;Block Party;Plaza Partner Event;Farmers Market;Athletic Race / Tour;Plaza Event;Single Block Festival;Religious Event;Open Street Partner Event;Theater Load in and Load Outs;Production Event;Health Fair	46056	high	false	high
+2025-06-21	Manhattan	94932	67035	15.99	26.10	0.00	0.00	Sport - Adult;Special Event;Sport - Youth;Farmers Market;Sidewalk Sale;Production Event;Street Event;Plaza Event;Street Festival;Plaza Partner Event;Single Block Festival;Block Party;Health Fair;Parade	103669	high	false	average
+2025-06-21	Other	5274	3656	15.86	26.10	0.00	0.00		6433	none	false	below_average
+2025-06-21	Queens	12462	9151	13.72	26.10	0.00	0.00	Special Event;Sport - Youth;Sport - Adult;Open Street Partner Event;Sidewalk Sale;Health Fair;Block Party;Parade;Street Event;Single Block Festival;Plaza Partner Event;Plaza Event	11380	high	false	high
+2025-06-22	Bronx	4010	2925	25.01	26.40	2.50	0.00	Sport - Youth;Special Event;Sport - Adult;Stickball;Single Block Festival;Sidewalk Sale;Street Event;Religious Event;Parade	4950	medium	false	below_average
+2025-06-22	Brooklyn	41740	30844	13.90	26.40	2.50	0.00	Sport - Adult;Special Event;Sport - Youth;Farmers Market;Plaza Event;Religious Event;Parade;Open Street Partner Event;Block Party;Street Event;Single Block Festival;Street Festival	44430	high	false	below_average
+2025-06-22	Manhattan	74498	54892	14.97	26.40	2.50	0.00	Sport - Adult;Special Event;Sport - Youth;Production Event;Sidewalk Sale;Farmers Market;Religious Event;Street Festival;Plaza Event;Parade	98364	medium	false	low
+2025-06-22	Other	5086	3557	15.81	26.40	2.50	0.00		6056	none	false	low
+2025-06-22	Queens	9958	7312	12.79	26.40	2.50	0.00	Sport - Adult;Sport - Youth;Special Event;Street Event;Religious Event;Parade;Open Street Partner Event;Farmers Market	10881	high	false	below_average
+2025-06-23	Bronx	5108	3905	21.21	31.15	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Street Event	5661	low	false	average
+2025-06-23	Brooklyn	40281	32704	12.08	31.15	0.00	0.00	Sport - Youth;Special Event;Street Event;Sport - Adult	50625	low	false	below_average
+2025-06-23	Manhattan	93805	78499	12.49	31.15	0.00	0.00	Sport - Youth;Special Event;Plaza Event;Production Event;Sport - Adult;Plaza Partner Event;Street Event	112982	low	false	average
+2025-06-23	Other	5818	4725	13.03	31.15	0.00	0.00		6898	none	false	average
+2025-06-23	Queens	10580	8543	11.12	31.15	0.00	0.00	Sport - Youth;Special Event;Sport - Adult;Street Event;Open Street Partner Event	12379	low	false	average
+2025-06-24	Bronx	4753	3680	18.59	32.20	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Farmers Market	5746	low	false	average
+2025-06-24	Brooklyn	42324	34543	11.84	32.20	0.00	0.00	Sport - Youth;Special Event;Sport - Adult;Street Event;Production Event;Plaza Partner Event	51574	low	false	average
+2025-06-24	Manhattan	100386	85102	12.04	32.20	0.00	0.00	Sport - Adult;Special Event;Production Event;Sport - Youth;Farmers Market;Street Event;Plaza Partner Event	114918	low	false	above_average
+2025-06-24	Other	6121	5070	12.55	32.20	0.00	0.00		6995	none	false	average
+2025-06-24	Queens	10761	8710	10.98	32.20	0.00	0.00	Sport - Youth;Special Event;Street Event;Sport - Adult;Farmers Market;Open Street Partner Event	12587	low	false	average
+2025-06-25	Bronx	5128	3941	21.93	31.40	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Open Street Partner Event;Street Event	5681	low	false	above_average
+2025-06-25	Brooklyn	42669	34669	11.98	31.40	0.00	0.00	Sport - Youth;Special Event;Sport - Adult;Farmers Market;Plaza Partner Event;Street Event;Production Event	50851	low	false	average
+2025-06-25	Manhattan	105666	88968	12.36	31.40	0.00	0.00	Special Event;Production Event;Theater Load in and Load Outs;Sport - Youth;Sport - Adult;Farmers Market;Street Event;Sidewalk Sale;Plaza Partner Event;Plaza Event	113443	low	false	above_average
+2025-06-25	Other	6279	5118	13.04	31.40	0.00	0.00		6921	none	false	above_average
+2025-06-25	Queens	10801	8772	11.38	31.40	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Parade;Street Event;Open Street Partner Event;Production Event;Plaza Partner Event	12429	low	false	average
+2025-06-26	Bronx	5299	4146	16.04	24.15	0.00	0.00	Sport - Youth;Street Event;Sport - Adult;Special Event;Farmers Market	5097	low	false	above_average
+2025-06-26	Brooklyn	44890	35884	12.70	24.15	0.00	0.00	Sport - Adult;Sport - Youth;Special Event;Plaza Partner Event;Street Event;Open Street Partner Event	44292	low	false	above_average
+2025-06-26	Manhattan	107835	90001	12.55	24.15	0.00	0.00	Sport - Adult;Special Event;Production Event;Street Event;Sport - Youth;Farmers Market;Sidewalk Sale;Plaza Event;Single Block Festival;Plaza Partner Event;Open Street Partner Event	100073	low	false	above_average
+2025-06-26	Other	6309	5096	13.24	24.15	0.00	0.00		6253	none	false	above_average
+2025-06-26	Queens	11761	9372	12.34	24.15	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Street Festival;Production Event;Street Event;Open Street Partner Event	10994	low	false	above_average
+2025-06-27	Bronx	4800	3543	18.40	19.45	1.80	0.00	Sport - Youth;Sport - Adult;Special Event;Plaza Partner Event;Sidewalk Sale;Street Event;Farmers Market	4482	low	false	average
+2025-06-27	Brooklyn	44817	35439	12.63	19.45	1.80	0.00	Sport - Youth;Special Event;Sport - Adult;Street Event;Farmers Market;Plaza Partner Event;Plaza Event;Religious Event;Health Fair;Production Event	38674	low	false	average
+2025-06-27	Manhattan	100016	80729	12.89	19.45	1.80	0.00	Special Event;Sport - Youth;Sidewalk Sale;Sport - Adult;Street Event;Plaza Partner Event;Parade;Farmers Market;Production Event	87187	low	false	average
+2025-06-27	Other	6246	4899	13.79	19.45	1.80	0.00		5529	none	false	above_average
+2025-06-27	Queens	11222	8893	11.82	19.45	1.80	0.00	Special Event;Sport - Youth;Sport - Adult;Religious Event;Farmers Market;Open Street Partner Event;Production Event;Block Party;Street Event	9662	low	false	above_average
+2025-06-28	Bronx	4418	3171	25.15	22.75	1.30	0.00	Sport - Youth;Sport - Adult;Special Event;Plaza Partner Event;Sidewalk Sale;Parade;Street Event;Health Fair;Religious Event;Open Street Partner Event	4814	high	false	below_average
+2025-06-28	Brooklyn	48667	35722	14.14	22.75	1.30	0.00	Special Event;Sport - Youth;Block Party;Sport - Adult;Street Event;Open Street Partner Event;Farmers Market;Single Block Festival;Parade;Plaza Event	42039	high	false	above_average
+2025-06-28	Manhattan	92182	66500	15.39	22.75	1.30	0.00	Sport - Adult;Special Event;Production Event;Farmers Market;Street Event;Sport - Youth;Sidewalk Sale;Single Block Festival;Parade;Plaza Partner Event;Street Festival;Health Fair;Plaza Event;Open Street Partner Event	94444	high	false	average
+2025-06-28	Other	6208	4348	16.66	22.75	1.30	0.00		5914	none	false	average
+2025-06-28	Queens	11090	8351	13.44	22.75	1.30	0.00	Special Event;Sport - Youth;Sport - Adult;Open Street Partner Event;Parade;Plaza Event;Health Fair;Athletic Race / Tour;Street Event;Block Party;Sidewalk Sale	10427	high	false	above_average
+2025-06-29	Bronx	4163	3003	21.82	28.35	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Sidewalk Sale;Single Block Festival;Stickball;Religious Event;Health Fair	5435	medium	false	below_average
+2025-06-29	Brooklyn	46444	33716	14.00	28.35	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Farmers Market;Open Street Partner Event;Plaza Partner Event;Parade;Religious Event	48092	medium	false	above_average
+2025-06-29	Manhattan	87396	62202	16.00	28.35	0.00	0.00	Sport - Adult;Special Event;Sport - Youth;Sidewalk Sale;Street Event;Parade;Farmers Market;Production Event;Block Party;Street Festival;Plaza Event;Health Fair	107818	medium	false	below_average
+2025-06-29	Other	6159	4271	16.56	28.35	0.00	0.00		6640	none	false	average
+2025-06-29	Queens	10794	8008	12.98	28.35	0.00	0.00	Open Street Partner Event;Special Event;Sport - Youth;Sport - Adult;Street Event;Farmers Market;Street Festival;Single Block Festival;Plaza Event;Religious Event;Parade	11825	high	false	average
+2025-06-30	Bronx	4650	3595	14.16	26.95	0.00	0.00	Sport - Youth;Sport - Adult;Special Event	5322	low	false	average
+2025-06-30	Brooklyn	39061	31700	11.94	26.95	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Production Event;Religious Event	46825	low	false	below_average
+2025-06-30	Manhattan	93028	76809	12.59	26.95	0.00	0.00	Sport - Youth;Special Event;Sport - Adult;Street Event;Plaza Partner Event;Theater Load in and Load Outs;Production Event	105236	low	false	average
+2025-06-30	Other	5786	4610	13.39	26.95	0.00	0.00		6511	none	false	average
+2025-06-30	Queens	10368	8316	11.23	26.95	0.00	0.00	Sport - Youth;Sport - Adult;Special Event;Street Event;Open Street Partner Event	11548	low	false	below_average

@@ -1,0 +1,30 @@
+2026-04-18T13:57:35 INFO  ======================================================================
+2026-04-18T13:57:35 INFO  === acquisition run started (run_date=2026-04-18, sources=citibike) ===
+2026-04-18T13:57:35 INFO  log file: /mnt/c/Users/Admin/Desktop/magisterka_pwr/semestry/III/przetwarzanie_danych/przetwarzanie-danych-pwr/logs/acquisition/2026-04-18T11-57-35Z.log
+2026-04-18T13:57:50 INFO  [manifest] załadowany z /meta/manifest.json (18 wpisów)
+2026-04-18T13:57:50 INFO  [citibike] start
+2026-04-18T13:58:02 INFO  [citibike] downloading 202503-citibike-tripdata.zip (618.3 MB) from s3://tripdata/
+2026-04-18T13:58:29 INFO  [citibike] downloaded 618260276 B in 27.1s (22.79 MB/s)
+2026-04-18T13:59:34 INFO  [citibike] downloading 202504-citibike-tripdata.zip (727.2 MB) from s3://tripdata/
+2026-04-18T14:00:00 INFO  [citibike] downloaded 727249076 B in 26.0s (27.94 MB/s)
+2026-04-18T14:01:34 INFO  [citibike] downloading 202505-citibike-tripdata.zip (844.4 MB) from s3://tripdata/
+2026-04-18T14:02:02 INFO  [citibike] downloaded 844446636 B in 27.3s (30.97 MB/s)
+2026-04-18T14:03:13 INFO  [citibike] downloading 202506-citibike-tripdata.zip (929.0 MB) from s3://tripdata/
+2026-04-18T14:03:45 INFO  [citibike] downloaded 929043436 B in 31.8s (29.24 MB/s)
+2026-04-18T14:05:18 INFO  [citibike] downloading 202507-citibike-tripdata.zip (973.9 MB) from s3://tripdata/
+2026-04-18T14:06:05 INFO  [citibike] downloaded 973875638 B in 46.6s (20.89 MB/s)
+2026-04-18T14:07:45 INFO  [citibike] downloading 202508-citibike-tripdata.zip (1000.3 MB) from s3://tripdata/
+2026-04-18T14:08:23 INFO  [citibike] downloaded 1000258641 B in 37.7s (26.51 MB/s)
+2026-04-18T14:09:54 INFO  [citibike] downloading 202509-citibike-tripdata.zip (1032.4 MB) from s3://tripdata/
+2026-04-18T14:10:34 INFO  [citibike] downloaded 1032411368 B in 40.5s (25.48 MB/s)
+2026-04-18T14:12:00 INFO  [citibike] downloading 202510-citibike-tripdata.zip (924.1 MB) from s3://tripdata/
+2026-04-18T14:12:32 INFO  [citibike] downloaded 924115389 B in 32.0s (28.83 MB/s)
+2026-04-18T14:13:55 INFO  [citibike] downloading 202511-citibike-tripdata.zip (667.1 MB) from s3://tripdata/
+2026-04-18T14:14:23 INFO  [citibike] downloaded 667113932 B in 27.8s (23.96 MB/s)
+2026-04-18T14:15:23 INFO  [citibike] done: citibike               9 new,   0 skipped,  7716.77 MB pulled, 0 errors
+2026-04-18T14:15:46 INFO  [manifest] zapisany w /meta/manifest.json (27 wpisów)
+2026-04-18T14:15:46 INFO  === SUMMARY ===
+2026-04-18T14:15:46 INFO    citibike               9 new,   0 skipped,  7716.77 MB pulled, 0 errors
+2026-04-18T14:15:46 INFO    TOTAL: 9 new, 0 skipped, 7716.8 MB, 0 errors, duration 1091.2s
+2026-04-18T14:16:11 INFO  [log] lokalny → HDFS /logs/acquisition-2026-04-18T11-57-35Z.log
+2026-04-18T14:16:11 INFO  === acquisition run finished (0 errors) ===

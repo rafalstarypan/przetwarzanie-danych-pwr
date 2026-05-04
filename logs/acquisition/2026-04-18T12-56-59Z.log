@@ -1,0 +1,20 @@
+2026-04-18T14:56:59 INFO  ======================================================================
+2026-04-18T14:56:59 INFO  === acquisition run started (run_date=2026-04-18, sources=station_to_borough) ===
+2026-04-18T14:56:59 INFO  log file: /mnt/c/Users/Admin/Desktop/magisterka_pwr/semestry/III/przetwarzanie_danych/przetwarzanie-danych-pwr/logs/acquisition/2026-04-18T12-56-59Z.log
+2026-04-18T14:57:20 INFO  [manifest] załadowany z /meta/manifest.json (27 wpisów)
+2026-04-18T14:57:20 INFO  [station_to_borough] start
+2026-04-18T14:57:20 INFO  [station_to_borough] GET https://data.cityofnewyork.us/api/geospatial/wh2p-dxnf?method=export&format=GeoJSON
+2026-04-18T14:57:24 INFO  [station_to_borough] GeoJSON pobrany (139.5 KB)
+2026-04-18T14:57:24 INFO  [station_to_borough] wczytano 5 poligonów dzielnic: Staten Island, Manhattan, Bronx, Brooklyn, Queens
+2026-04-18T14:57:24 INFO  [station_to_borough] pobieram najnowszy Citi Bike: /raw/citibike/2026-04-18/202511-citibike-tripdata.zip
+2026-04-18T14:58:31 INFO  [station_to_borough] pobrano 667.1 MB w 66.6s
+2026-04-18T14:58:31 INFO  [station_to_borough] czytam stacje z 202511-citibike-tripdata_4.csv (w ZIP)
+2026-04-18T14:58:47 INFO  [station_to_borough] unikalnych stacji: 2168
+2026-04-18T14:58:48 INFO  [station_to_borough] rozkład dzielnic: {'Brooklyn': 741, 'Manhattan': 662, 'Queens': 443, 'Bronx': 322}
+2026-04-18T14:59:39 INFO  [station_to_borough] done: station_to_borough     2 new,   0 skipped,     0.27 MB pulled, 0 errors
+2026-04-18T15:00:11 INFO  [manifest] zapisany w /meta/manifest.json (29 wpisów)
+2026-04-18T15:00:11 INFO  === SUMMARY ===
+2026-04-18T15:00:11 INFO    station_to_borough     2 new,   0 skipped,     0.27 MB pulled, 0 errors
+2026-04-18T15:00:11 INFO    TOTAL: 2 new, 0 skipped, 0.3 MB, 0 errors, duration 191.7s
+2026-04-18T15:00:47 INFO  [log] lokalny → HDFS /logs/acquisition-2026-04-18T12-56-59Z.log
+2026-04-18T15:00:47 INFO  === acquisition run finished (0 errors) ===

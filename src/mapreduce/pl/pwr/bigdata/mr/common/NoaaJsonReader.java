@@ -61,9 +61,9 @@ public final class NoaaJsonReader {
             double value = Double.parseDouble(mVal.group(1));
             DailyWeather d = out.computeIfAbsent(date, k -> new DailyWeather());
             switch (type) {
-                case "TMAX": d.tmaxC = value / 10.0; break;
-                case "TMIN": d.tminC = value / 10.0; break;
-                case "PRCP": d.prcpMm = value / 10.0; break;
+                case "TMAX": d.tmaxC = value; break;
+                case "TMIN": d.tminC = value; break;
+                case "PRCP": d.prcpMm = value; break;
                 case "SNOW": d.snowMm = value; break;
                 default: break;
             }
