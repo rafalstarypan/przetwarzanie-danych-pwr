@@ -1,0 +1,17 @@
+=== E1-spark start: 2026-05-10T19:58:22.057528 ===
+Application ID: application_1778406640667_0003
+Input:    /processed/citibike/202506-citibike-tripdata_*.csv
+Stations: /raw/station_to_borough/2026-04-21/stations_2026-04-21.csv
+Output:   /processed/T1_spark
+
+Counters:
+    dropped_no_station=1992
+    dropped_too_short=0
+    dropped_too_long=1091
+    kept=4756262
+
+Count phase duration: 75466 ms
+Write phase duration: 135597 ms
+Total duration:       211473 ms
+
+=== E1-spark done: 2026-05-10T19:58:22.072383, duration=211473 ms ===
